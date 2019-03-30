@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arminas jQuery</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script type= "text/javascript" src="jquery.min.js"></script>
+
+
+    <style>
+     #circle1 {
+         width:200px;
+         height:200px;
+         background-color:green;
+         border-radius:100px;
+
+     }
+     #circle {
+         width:400px;
+         height:400px;
+         background-color:black;
+         border-radius:200px;
+
+     }
+
+      #square {
+          width:200px;
+          height:200px;
+          background-color:red;
+          margin-top:10px;
+      }
+    </style>
+
+</head>
+
+
+<body>
+
+     <h1>Asyncronous JavaScript And XML</h1>
+
+     <div id="circle"></div>
+
+     <div id="circle1"></div>
+
+     <div id="square"></div>
+
+      <script>
+          $("#square").click(function(){
+
+              $(this).animate({
+                  width:"300px",
+                  height:"300px",
+                  borderRadius:"150px",
+                  marginLeft:"100px",
+                  marginTop:"100px"
+              },800);
+
+
+          });
+          $("#square").click(function(){
+
+              $(this).animate({
+                  width:"500px",
+                  height:"500px",
+                  borderRadius:"350px",
+                  marginLeft:"10px",
+                  marginTop:"10px"
+              },800);
+
+
+          });
+          $("#circle1").click(function(){
+
+              $(this).animate({
+                  width:"300px",
+                  height:"300px",
+                  borderRadius:"150px",
+                  marginLeft:"100px",
+                  marginTop:"100px"
+              },800);
+
+
+          });
+          $("#circle1").click(function(){
+
+              $(this).animate({
+                  width:"300px",
+                  height:"300px",
+                  borderRadius:"550px",
+                  marginLeft:"10px",
+                  marginTop:"10px"
+              },800);
+
+
+          });
+         $("#circle").click(function(){
+
+             $(this).animate({
+                 width:"300px",
+                 height:"300px",
+                 borderRadius:"150px",
+                 marginLeft:"100px",
+                 marginTop:"100px"
+             },800);
+
+
+         });
+         $("#circle").click(function(){
+
+             $(this).animate({
+                 width:"400px",
+                 height:"400px",
+                 borderRadius:"250px",
+                 marginLeft:"100px",
+                 marginTop:"100px"
+             },800);
+
+
+         });
+         $("#circle").click(function(){
+
+             $(this).animate({
+                 width:"500px",
+                 height:"500px",
+                 borderRadius:"250px",
+                 marginLeft:"50px",
+                 marginTop:"50px"
+             },800);
+
+
+         });
+         $("#circle").click(function(){
+
+             $(this).animate({
+                 width:"100px",
+                 height:"100px",
+                 borderRadius:"50px",
+                 marginLeft:"50px",
+                 marginTop:"50px"
+             },800);
+
+
+         });
+
+
+      </script>
+
+
+
+
+
+</body>
+</html>
